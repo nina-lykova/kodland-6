@@ -4,7 +4,7 @@ from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 
 #Вставляем бот
-bot = telebot.TeleBot("7703860588:AAGZf3ABq4galShN3SkqU3oeRe0Nfy8bFMA")
+bot = telebot.TeleBot("TOKEN")
 
 #Первая, стартовая команда
 @bot.message_handler(commands=['start'])
